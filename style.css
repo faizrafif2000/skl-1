@@ -1,0 +1,212 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.kotak-hitam {
+
+            width: 100%;
+            height: 200px;
+            background-color: black;
+            margin-top: 10px;
+            color: white;
+            font-size: 50px;
+            color: white;
+        }
+
+main {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.nama {
+color: blueviolet
+}
+
+.nav {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+.full-name {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 10px solid black;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.perkenalan {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 2rem 0;
+    font-size: xx-large;
+    overflow: hidden;
+}
+
+.perkenalan > div {
+    max-width: 55%;
+}
+
+.perkenalan img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pendidikan{
+    background-color: cornflowerblue;
+}
+.content-a {
+    list-style: inherit;
+    list-style-type: circl black;
+}
+
+.margin {
+    margin-inline: 40%;
+}
+
+.contact:hover {
+    background-color: red;
+    font-size: xx-large;
+}
+
+.button {
+background-color: blueviolet;
+color: white;
+border-radius: 20px;
+padding: 8px;
+}
+
+.beranda {
+    position: relative;
+    top: 10%;
+}
+
+.content-project {
+   display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-project-piece {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.project-it {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 50px;
+    font-weight: bold ;
+}
+
+.aboutMe {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5rem;
+    font-weight: bold;
+}
+
+.title-aboutMe {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.content-aboutMe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 3rem 2rem 0;
+    margin: 0;
+}
+
+.icon-aboutMe {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.circle-img-aboutMe {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-img-aboutMe:hover {
+    background-color: black;
+} 
+
+.portofolio {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5rem;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-top: 3rem;
+    margin-inline: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.project {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5rem;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-top: 3rem;
+    margin-inline: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
